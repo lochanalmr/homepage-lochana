@@ -1,0 +1,33 @@
+HTML tags used other than <html>, <head>, <body>, and <title>:
+<h1>
+<h2>
+<h3>
+<p>
+<ol>
+<ul>
+<div>
+<footer>
+<script>
+<img>
+<a>
+
+CSS properties:
+body
+h2
+div
+#education
+#projects
+footer
+#socials
+a
+a:hover
+.long-p
+h3
+
+How JavaScript was used:
+JavaScript was used to implement a typewrite effect for the title of every page, upon opening.
+(copied from https://www.geeksforgeeks.org/javascript/typewriter-effect-in-js/)
+
+How bootstrap was used:
+Bootstrap was used for implementation of grid structures within the page.
+
