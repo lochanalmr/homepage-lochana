@@ -27,7 +27,7 @@ div {
 
 #education {
     text-align: center;
-    padding-bottom: 10px;
+    padding: 0 20px 15px;
 }
 
 #projects {
@@ -61,4 +61,64 @@ footer {
 
 h3 {
     padding-top: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .long-p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #intro-box .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #intro-box .col-md-auto {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #socials .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #socials .col-md-auto {
+        flex-shrink: 0;
+    }
+
+    #socials .col-6 {
+        flex: 1;
+        text-align: left;
+        padding-left: 15px;
+    }
 }

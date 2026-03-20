@@ -1,4 +1,4 @@
-const textToType = "This is Lochana's 🏠Home on the 🌐Internet";
+const textToType = "Lochana's 🏠 @ 🌐";
 const typingSpeed = 75; // Speed in milliseconds
 let index = 0;
 
